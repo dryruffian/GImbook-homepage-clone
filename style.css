@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'fun';
+    src: url(Inter-VariableFont_slnt,wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "fun";
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #FFF6D6;
+}
+
+nav{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 56px 32px;
+    align-items: center
+}
+
+#menu{
+    display: flex;
+    gap: 45px;
+    color: #070707;
+    justify-content: space-evenly;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: fun;
+    font-size: 22.019px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-items: center;
+}
+
+#home{
+    background-color:#FFC83C ;
+    padding: 8px 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#login{
+    background-color:#FFC83C ;
+    padding: 15px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 50px 75px 100px;
+    align-items: center;
+
+}
+#get{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 60px;
+    background-color: #FFC300;
+    border-radius: 14.5px;
+    align-items: center;
+    color: #070707;
+    font-size: 35px;
+    font-weight: 700;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25)
+
+}
+
+#left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#left h1{
+    font-size: 40px;
+}
+#right img{
+    width: 617.529px;
+    height: 365px;
+}
+
+#watermark{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
